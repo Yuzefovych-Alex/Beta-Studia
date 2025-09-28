@@ -15,12 +15,6 @@ const About = () => {
       number: "1"
     },
     {
-      icon: "💰",
-      title: t.cost.title,
-      description: t.cost.description,
-      number: "2"
-    },
-    {
       icon: "💳",
       title: t.payment.title,
       description: t.payment.description,

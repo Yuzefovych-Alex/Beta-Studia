@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { translations } from '../translations/translations';
 import ScrollReveal from './ScrollReveal';
+import img_telegram from '../assets/telegram.png';
+import img_lolz from '../assets/download.svg';
 
 const Contact = () => {
   const { language } = useLanguage();
@@ -36,79 +38,20 @@ const Contact = () => {
         <div className="contact-content">
           <ScrollReveal className="reveal-left" delay={200}>
             <div className="contact-info">
-              <h3>{t.contactInfo}</h3>
-              
-              <div className="contact-item">
-                <span>📧</span>
-                <span>info@studio.com</span>
-              </div>
-              
-              <div className="contact-item">
-                <span>📱</span>
-                <span>+380 (50) 123-45-67</span>
-              </div>
-              
-              <div className="contact-item">
-                <span>📍</span>
-                <span>м. Київ, вул. Хрещатик, 1</span>
-              </div>
-              
-              <div className="contact-item">
-                <span>⏰</span>
-                <span>Пн-Пт: 9:00-18:00</span>
-              </div>
-
-              <div className="contact-item">
-                <span>💼</span>
-                <span>Telegram: @studio_dev</span>
-              </div>
+                <div className="contact-div">
+                    <img className="contact-icon" src={img_telegram} />
+                    <h3 className="contact-title">Telegram</h3>
+                </div>
             </div>
           </ScrollReveal>
-
-          <ScrollReveal className="reveal-right" delay={400}>
-            <div className="contact-form">
-              <h3>{t.writeUs}</h3>
-              <form onSubmit={handleSubmit}>
-                <div className="form-group">
-                  <label htmlFor="name">{t.name}</label>
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    value={formData.name}
-                    onChange={handleChange}
-                    required
-                  />
+            <ScrollReveal className="reveal-right" delay={400}>
+                <div className="contact-info">
+                    <div className="contact-div">
+                        <img className="contact-icon" src={img_lolz} />
+                        <h3 className="contact-title">LOLZ</h3>
+                    </div>
                 </div>
-                
-                <div className="form-group">
-                  <label htmlFor="email">{t.email}</label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    value={formData.email}
-                    onChange={handleChange}
-                    required
-                  />
-                </div>
-                
-                <div className="form-group">
-                  <label htmlFor="message">{t.message}</label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    rows="5"
-                    value={formData.message}
-                    onChange={handleChange}
-                    required
-                  ></textarea>
-                </div>
-                
-                <button type="submit" className="btn">{t.send}</button>
-              </form>
-            </div>
-          </ScrollReveal>
+            </ScrollReveal>
         </div>
       </div>
     </section>

@@ -1,5 +1,7 @@
 export const translations = {
-  uk: {
+
+
+    uk: {
     // Header
     home: 'Головна',
     about: 'Про нас',
@@ -77,7 +79,7 @@ export const translations = {
     // Footer
     copyright: '© 2024 Студія Розробки. Всі права захищені.'
   },
-  
+
   ru: {
     // Header
     home: 'Главная',
@@ -87,37 +89,52 @@ export const translations = {
     
     // Hero
     title: 'Студия Разработки',
-    subtitle: 'Профессиональная разработка веб-сайтов, приложений и дизайна. Мы создаем современные, функциональные и красивые решения для вашего бизнеса. Инновации и креативность в каждом проекте.',
+    subtitle: 'Разрабатываем всё — от чекеров до сложных проектов. В основном используем чистые запросы без браузерной эмуляции, чтобы обеспечить высокую скорость и экономию ресурсов. Если вашей задачи нет в описании, свяжитесь с нами — мы занимаемся гораздо большим.',
     servicesBtn: 'Наши Услуги',
     contactBtn: 'Связаться',
     
     // Services
     servicesTitle: 'Наши Услуги',
-    webDev: {
-      title: 'Веб-разработка',
-      description: 'Создание современных, адаптивных веб-сайтов с использованием новейших технологий. От лендингов до сложных веб-приложений с полным функционалом.'
-    },
-    mobileDev: {
-      title: 'Мобильные приложения',
-      description: 'Разработка мобильных приложений для iOS и Android. Нативные и кроссплатформенные решения для вашего бизнеса с интуитивным интерфейсом.'
-    },
-    design: {
-      title: 'UI/UX Дизайн',
-      description: 'Создание интуитивного и привлекательного пользовательского интерфейса. Прототипирование, тестирование и оптимизация пользовательского опыта.'
-    },
-    ecommerce: {
-      title: 'E-commerce',
-      description: 'Разработка интернет-магазинов с полным функционалом. Интеграция с платежными системами, CRM и системами управления товарами.'
-    },
-    seo: {
-      title: 'SEO Оптимизация',
-      description: 'Повышение видимости сайта в поисковых системах. Техническая оптимизация, контент-стратегия и аналитика для роста трафика.'
-    },
-    consulting: {
-      title: 'Консультации',
-      description: 'Профессиональные консультации по вопросам технологий, архитектуры проекта и стратегии цифровой трансформации вашего бизнеса.'
-    },
-    
+      webDev: {
+          title: 'Разработка на C++',
+          description: 'Мы создаём высокопроизводительные и оптимизированные решения на C++ для создания системных компонентов, библиотек, драйверов и серверных решений с высоким требованием к скорости и ресурсоэффективности.'
+      },
+      mobileDev: {
+          title: 'Разработка на C# (.NET)',
+          description: 'Разработка корпоративных приложений и веб-сервисов на платформе .NET с использованием C#. Мы создаём решения для бизнеса с передовыми технологиями, такими как ASP.NET Core и Entity Framework.'
+      },
+      design: {
+          title: 'Разработка на Python',
+          description: 'Разработка веб-приложений, скриптов автоматизации и прототипов машинного обучения на Python. Мы используем фреймворки Django и Flask для быстрого создания функционала.'
+      },
+      ecommerce: {
+          title: 'JavaScript / Frontend & Backend',
+          description: 'Создание адаптивных веб-приложений с использованием JavaScript (React, Vue, Angular) и серверной логики на Node.js для эффективной работы с клиентами и данными.'
+      },
+      seo: {
+          title: 'PHP Разработка',
+          description: 'Создание сайтов, интернет-магазинов и API на PHP (Laravel, Symfony). Мы обеспечиваем надёжную архитектуру и интеграции с платёжными системами и CRM.'
+      },
+      consulting: {
+          title: 'Веб-разработка',
+          description: 'Полный цикл разработки сайтов и интернет-магазинов: от дизайна до реализации, включая интеграции с CRM и другими системами.'
+      },
+      automation: {
+          title: 'Автоматизация и Скрипты',
+          description: 'Разработка скриптов для автоматизации рутинных задач и процессов, таких как бэкапы, миграции данных, настройка серверов с использованием Python, Bash и PowerShell.'
+      },
+      bas: {
+          title: 'Решения для бизнеса (BAS)',
+          description: 'Внедрение и настройка систем автоматизации для бизнеса, включая учет, финансовую отчетность и управление складом, с интеграцией с 1С и другими системами.'
+      },
+      reverseEngineering: {
+          title: 'Реверс-инжиниринг (Этичный аудит)',
+          description: 'Аудит и восстановление функционала программного обеспечения, анализ уязвимостей, а также проверка безопасности кода с соблюдением всех законных требований.'
+      },
+      botsAndSoft: {
+          title: 'Разработка Ботов и Софт',
+          description: 'Разработка чат-ботов для автоматизации взаимодействия с клиентами, а также специализированных программных решений под любые бизнес-задачи.'
+      },
     // Contact
     contactTitle: 'Свяжитесь с нами',
     contactInfo: 'Контактная информация',
@@ -129,111 +146,118 @@ export const translations = {
     successMessage: 'Спасибо за ваше сообщение! Мы свяжемся с вами в ближайшее время.',
     
     // About
-    aboutTitle: 'О нас',
-    aboutSubtitle: 'Мы превращаем идеи в реальность',
-    aboutDescription: 'Мы специализируемся на реализации сложных проектов, но не ограничиваемся ими - от лендингов до сложных веб-приложений, воплощаем любые идеи.',
-    
-    specialization: {
-      title: 'Специализация',
-      description: 'Мы специализируемся на реализации сложных проектов, но не ограничиваемся ими - от лендингов до сложных веб-приложений, воплощаем любые идеи.'
-    },
-    
-    cost: {
-      title: 'Стоимость',
-      description: 'Минимальная стоимость заказа начинается от $500. Время выполнения зависит от сложности проекта.'
-    },
-    
-    payment: {
-      title: 'Оплата',
-      description: 'Принимаем оплату удобными для вас способами, начиная от банковских карт, заканчивая криптовалютами.'
-    },
-    
-    stack: {
-      title: 'Технологии',
-      description: 'Основные языки в нашем арсенале - JavaScript, React, Node.js и Python. Нужно что-то еще? Просто скажите - мы найдем решение!'
-    },
+      aboutTitle: 'О нас',
+      aboutSubtitle: 'Мы превращаем идеи в реальность',
+      aboutDescription: 'Наша команда занимается разработкой проектов любой сложности — от простых решений до масштабных и уникальных приложений. Мы применяем инновационные подходы, минимизируя ресурсоемкие технологии и предоставляя быстрые и эффективные решения.',
+
+      specialization: {
+          title: 'Специализация',
+          description: 'Мы разрабатываем все — от чекеров до сложных веб-приложений. Наш подход основан на использовании чистых запросов, что позволяет значительно повысить скорость и снизить нагрузку, избегая браузерной эмуляции. Мы с удовольствием возьмемся за любой проект, независимо от его сложности.'
+      },
+
+      payment: {
+          title: 'Оплата',
+          description: 'Мы принимаем оплату любыми удобными для вас способами: банковские карты, криптовалюты и другие формы расчета. Гибкость в этом вопросе — наш приоритет.'
+      },
+
+      stack: {
+          title: 'Технологии',
+          description: 'Основные технологии, с которыми мы работаем: JavaScript, React, Node.js, Python. Если для вашего проекта требуется что-то специфическое — не проблема! Мы всегда найдем оптимальное решение для вашей задачи.'
+      },
     
     // Footer
     copyright: '© 2024 Студия Разработки. Все права защищены.'
   },
-  
-  en: {
-    // Header
-    home: 'Home',
-    about: 'About',
-    services: 'Services',
-    contact: 'Contact',
-    
-    // Hero
-    title: 'Development Studio',
-    subtitle: 'Professional development of websites, applications and design. We create modern, functional and beautiful solutions for your business. Innovation and creativity in every project.',
-    servicesBtn: 'Our Services',
-    contactBtn: 'Get in Touch',
-    
-    // Services
-    servicesTitle: 'Our Services',
-    webDev: {
-      title: 'Web Development',
-      description: 'Creating modern, responsive websites using the latest technologies. From landing pages to complex web applications with full functionality.'
-    },
-    mobileDev: {
-      title: 'Mobile Applications',
-      description: 'Development of mobile applications for iOS and Android. Native and cross-platform solutions for your business with intuitive interface.'
-    },
-    design: {
-      title: 'UI/UX Design',
-      description: 'Creating intuitive and attractive user interface. Prototyping, testing and optimizing user experience.'
-    },
-    ecommerce: {
-      title: 'E-commerce',
-      description: 'Development of online stores with full functionality. Integration with payment systems, CRM and product management systems.'
-    },
-    seo: {
-      title: 'SEO Optimization',
-      description: 'Increasing website visibility in search engines. Technical optimization, content strategy and analytics for traffic growth.'
-    },
-    consulting: {
-      title: 'Consulting',
-      description: 'Professional consulting on technology issues, project architecture and digital transformation strategy for your business.'
-    },
-    
-    // Contact
-    contactTitle: 'Get in Touch',
-    contactInfo: 'Contact Information',
-    writeUs: 'Write to Us',
-    name: 'Name',
-    email: 'Email',
-    message: 'Message',
-    send: 'Send',
-    successMessage: 'Thank you for your message! We will contact you soon.',
-    
-    // About
-    aboutTitle: 'About Us',
-    aboutSubtitle: 'We turn ideas into reality',
-    aboutDescription: 'We specialize in implementing complex projects, but are not limited to them - from landing pages to complex web applications, we embody any ideas.',
-    
-    specialization: {
-      title: 'Specialization',
-      description: 'We specialize in implementing complex projects, but are not limited to them - from landing pages to complex web applications, we embody any ideas.'
-    },
-    
-    cost: {
-      title: 'Cost',
-      description: 'The minimum order cost starts from $500. Execution time depends on the complexity of the project.'
-    },
-    
-    payment: {
-      title: 'Payment',
-      description: 'We accept payment in convenient ways for you, starting from bank cards, ending with cryptocurrencies.'
-    },
-    
-    stack: {
-      title: 'Technologies',
-      description: 'The main languages in our arsenal are - JavaScript, React, Node.js and Python. Need something else? Just say - we will find a solution!'
-    },
-    
-    // Footer
-    copyright: '© 2024 Development Studio. All rights reserved.'
-  }
+
+    en: {
+        // Header
+        home: 'Home',
+        about: 'About',
+        services: 'Services',
+        contact: 'Contact',
+
+        // Hero
+        title: 'Development Studio',
+        subtitle: 'We develop everything — from checkers to complex projects. We mainly use raw HTTP requests instead of browser emulation to ensure high speed and resource efficiency. If your task is not listed — contact us, we handle much more.',
+        servicesBtn: 'Our Services',
+        contactBtn: 'Get in Touch',
+
+        // Services
+        servicesTitle: 'Our Services',
+        webDev: {
+            title: 'C++ Development',
+            description: 'We create high-performance and optimized C++ solutions for building system components, libraries, drivers, and high-speed backend services.'
+        },
+        mobileDev: {
+            title: 'C# (.NET) Development',
+            description: 'Enterprise applications and web services using the .NET platform and C#. We leverage technologies like ASP.NET Core and Entity Framework to deliver robust business solutions.'
+        },
+        design: {
+            title: 'Python Development',
+            description: 'Development of web applications, automation scripts, and machine learning prototypes using Python. We use frameworks like Django and Flask for rapid development.'
+        },
+        ecommerce: {
+            title: 'JavaScript / Frontend & Backend',
+            description: 'Creation of responsive web applications using JavaScript (React, Vue, Angular) and backend logic with Node.js for efficient data and user interaction.'
+        },
+        seo: {
+            title: 'PHP Development',
+            description: 'Websites, e-commerce platforms, and APIs using PHP (Laravel, Symfony). We build reliable architectures with payment systems and CRM integrations.'
+        },
+        consulting: {
+            title: 'Full Web Development',
+            description: 'End-to-end website and online store development: from design to deployment, including integrations with CRMs and third-party systems.'
+        },
+        automation: {
+            title: 'Automation & Scripts',
+            description: 'Automation of routine tasks and processes such as backups, data migration, and server setup using Python, Bash, and PowerShell.'
+        },
+        bas: {
+            title: 'Business Automation Solutions (BAS)',
+            description: 'Implementation and customization of automation systems for business: accounting, financial reporting, and warehouse management with integration to 1C and more.'
+        },
+        reverseEngineering: {
+            title: 'Reverse Engineering (Ethical Audit)',
+            description: 'Software functionality recovery, vulnerability analysis, and security audits — strictly within legal and ethical boundaries.'
+        },
+        botsAndSoft: {
+            title: 'Bots & Custom Software',
+            description: 'Development of chatbots and specialized software for automating customer interactions or solving custom business needs.'
+        },
+
+        // Contact
+        contactTitle: 'Get in Touch',
+        contactInfo: 'Contact Information',
+        writeUs: 'Write to Us',
+        name: 'Name',
+        email: 'Email',
+        message: 'Message',
+        send: 'Send',
+        successMessage: 'Thank you for your message! We will contact you soon.',
+
+        // About
+        aboutTitle: 'About Us',
+        aboutSubtitle: 'We turn ideas into reality',
+        aboutDescription: 'Our team develops projects of any complexity — from simple tools to large-scale, unique systems. We apply innovative methods, avoid heavy solutions, and provide fast, efficient results.',
+
+        specialization: {
+            title: 'Specialization',
+            description: 'We develop everything — from checkers to complex web applications. Our approach is based on using raw HTTP requests to increase speed and reduce load, avoiding browser emulation. We’re ready to tackle any challenge.'
+        },
+
+        payment: {
+            title: 'Payment',
+            description: 'We accept all convenient forms of payment: bank cards, cryptocurrencies, and other flexible options — your comfort is our priority.'
+        },
+
+        stack: {
+            title: 'Technologies',
+            description: 'Our core stack includes JavaScript, React, Node.js, and Python. If your project requires something specific — not a problem! We’ll find the best solution.'
+        },
+
+        // Footer
+        copyright: '© 2024 Development Studio. All rights reserved.'
+    }
+
 };
 

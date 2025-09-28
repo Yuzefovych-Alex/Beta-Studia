@@ -71,6 +71,8 @@ body {
 }
 
 .reveal-left {
+    display: grid;
+    justify-items: center;
   opacity: 0;
   transform: translateX(-100px);
   transition: all 0.8s ease;
@@ -82,6 +84,8 @@ body {
 }
 
 .reveal-right {
+    display: grid;
+    justify-items: center;
   opacity: 0;
   transform: translateX(100px);
   transition: all 0.8s ease;
@@ -819,13 +823,19 @@ body {
 }
 
 .service-icon {
+    /*
   font-size: 3rem;
   margin-bottom: 1.5rem;
   background: linear-gradient(45deg, #0066ff, #00aaff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  animation: pulse 2s ease-in-out infinite;
+  animation: pulse 2s ease-in-out infinite;*/
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    background: none;
+    color: inherit;
+    animation: pulse 2s ease-in-out infinite;
 }
 
 .service-card h3 {
@@ -1378,4 +1388,26 @@ body {
     height: 25px;
     font-size: 1rem;
   }
+}
+
+.contact-div{
+    width: 20rem;
+    height: 23rem;
+    background: linear-gradient(135deg, rgba(26, 26, 46, 0.8) 0%, rgba(22, 33, 62, 0.8) 100%);
+    backdrop-filter: blur(10px);
+    padding: 2.5rem;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 102, 255, 0.2);
+    display: grid;
+    justify-items: center;
+
+}
+
+.contact-icon{
+    width: 13rem;
+    height: 13rem;
+}
+
+.contact-title{
+    margin-top: 2rem;
 }

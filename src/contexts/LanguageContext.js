@@ -14,7 +14,7 @@ export const LanguageProvider = ({ children }) => {
   const [language, setLanguage] = useState(() => {
     // Получаем сохраненный язык из localStorage или устанавливаем по умолчанию
     const savedLanguage = localStorage.getItem('language');
-    return savedLanguage || 'uk';
+    return savedLanguage || 'ru';
   });
 
   // Сохраняем выбранный язык в localStorage

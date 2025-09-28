@@ -18,7 +18,7 @@ const Header = () => {
     <header className="header">
       <div className="container">
         <nav className="nav">
-          <div className="logo">СТУДІЯ</div>
+          <div className="logo">Cathedral Studio</div>
           <ul className="nav-links">
             <li><a href="#home" onClick={() => scrollToSection('home')}>{t.home}</a></li>
             <li><a href="#about" onClick={() => scrollToSection('about')}>{t.about}</a></li>

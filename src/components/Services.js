@@ -9,35 +9,56 @@ const Services = () => {
 
   const services = [
     {
-      icon: "🌐",
+      icon: "🖥️",
       title: t.webDev.title,
       description: t.webDev.description
     },
     {
-      icon: "📱",
+      icon: "💻",
       title: t.mobileDev.title,
       description: t.mobileDev.description
     },
     {
-      icon: "🎨",
+      icon: "🐍",
       title: t.design.title,
       description: t.design.description
     },
     {
-      icon: "🛒",
+      icon: "🌍",
       title: t.ecommerce.title,
       description: t.ecommerce.description
     },
     {
-      icon: "🔍",
+      icon: "⚙️",
       title: t.seo.title,
       description: t.seo.description
     },
     {
-      icon: "💡",
+      icon: "🌐",
       title: t.consulting.title,
       description: t.consulting.description
-    }
+    },
+      {
+          icon: "🔧",
+          title: t.automation.title,
+          description: t.automation.description
+      },
+      {
+          icon: "📊",
+          title: t.bas.title,
+          description: t.bas.description
+      },
+      {
+          icon: "🕵️‍♂️",
+          title: t.reverseEngineering.title,
+          description: t.reverseEngineering.description
+      },
+      {
+          icon: "🤖",
+          title: t.botsAndSoft.title,
+          description: t.botsAndSoft.description
+      }
+
   ];
 
   return (
