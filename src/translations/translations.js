@@ -88,7 +88,7 @@ export const translations = {
     contact: 'Контакты',
     
     // Hero
-    title: 'Студия Разработки',
+    title: 'Cologne Studio',
     subtitle: 'Разрабатываем всё — от чекеров до сложных проектов. В основном используем чистые запросы без браузерной эмуляции, чтобы обеспечить высокую скорость и экономию ресурсов. Если вашей задачи нет в описании, свяжитесь с нами — мы занимаемся гораздо большим.',
     servicesBtn: 'Наши Услуги',
     contactBtn: 'Связаться',
@@ -177,7 +177,7 @@ export const translations = {
         contact: 'Contact',
 
         // Hero
-        title: 'Development Studio',
+        title: 'Cologne Studio',
         subtitle: 'We develop everything — from checkers to complex projects. We mainly use raw HTTP requests instead of browser emulation to ensure high speed and resource efficiency. If your task is not listed — contact us, we handle much more.',
         servicesBtn: 'Our Services',
         contactBtn: 'Get in Touch',

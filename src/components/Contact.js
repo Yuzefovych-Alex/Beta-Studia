@@ -44,14 +44,6 @@ const Contact = () => {
                 </div>
             </div>
           </ScrollReveal>
-            <ScrollReveal className="reveal-right" delay={400}>
-                <div className="contact-info">
-                    <div className="contact-div">
-                        <img className="contact-icon" src={img_lolz} />
-                        <h3 className="contact-title">LOLZ</h3>
-                    </div>
-                </div>
-            </ScrollReveal>
         </div>
       </div>
     </section>
