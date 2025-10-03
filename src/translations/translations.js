@@ -89,7 +89,7 @@ export const translations = {
     
     // Hero
     title: 'Cologne Studio',
-    subtitle: 'Разрабатываем всё — от чекеров до сложных проектов. В основном используем чистые запросы без браузерной эмуляции, чтобы обеспечить высокую скорость и экономию ресурсов. Если вашей задачи нет в описании, свяжитесь с нами — мы занимаемся гораздо большим.',
+    subtitle: 'Мы превращаем сложные идеи в работающие решения. Наша студия специализируется на разработке проектов любой сложности — от первых набросков до полной реализации. Мы глубоко погружаемся в задачу, продумываем каждую деталь и предлагаем нестандартные подходы.',
     servicesBtn: 'Наши Услуги',
     contactBtn: 'Связаться',
     
@@ -136,7 +136,7 @@ export const translations = {
           description: 'Разработка чат-ботов для автоматизации взаимодействия с клиентами, а также специализированных программных решений под любые бизнес-задачи.'
       },
     // Contact
-    contactTitle: 'Свяжитесь с нами',
+    contactTitle: 'Обратная связь',
     contactInfo: 'Контактная информация',
     writeUs: 'Напишите нам',
     name: 'Имя',
@@ -178,7 +178,7 @@ export const translations = {
 
         // Hero
         title: 'Cologne Studio',
-        subtitle: 'We develop everything — from checkers to complex projects. We mainly use raw HTTP requests instead of browser emulation to ensure high speed and resource efficiency. If your task is not listed — contact us, we handle much more.',
+        subtitle: 'We turn complex ideas into working solutions. Our studio specializes in developing projects of any complexity — from initial sketches to full implementation. We dive deep into each task, think through every detail, and offer unconventional approaches.',
         servicesBtn: 'Our Services',
         contactBtn: 'Get in Touch',
 
@@ -227,7 +227,7 @@ export const translations = {
 
         // Contact
         contactTitle: 'Get in Touch',
-        contactInfo: 'Contact Information',
+        contactInfo: 'Feedback loop',
         writeUs: 'Write to Us',
         name: 'Name',
         email: 'Email',

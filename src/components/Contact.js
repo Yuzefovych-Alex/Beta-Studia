@@ -36,13 +36,15 @@ const Contact = () => {
           <h2 className="section-title">{t.contactTitle}</h2>
         </ScrollReveal>
         <div className="contact-content">
-          <ScrollReveal className="reveal-left" delay={200}>
-            <div className="contact-info">
+            <ScrollReveal className="reveal-left" delay={200}>
+                <a href="https://t.me/codecologne" style={{ textDecoration: 'none' }}>
+                    <div className="contact-info">
                 <div className="contact-div">
                     <img className="contact-icon" src={img_telegram} />
                     <h3 className="contact-title">Telegram</h3>
                 </div>
             </div>
+            </a>
           </ScrollReveal>
         </div>
       </div>
